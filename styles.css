@@ -18,6 +18,8 @@ h3 {
 }
 
 #level-title {
+  border-style: dashed;
+  border-color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;

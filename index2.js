@@ -13,6 +13,12 @@ $(document).keypress(function(){
   console.log(i);
 });
 
+$(document).click(function(){
+  myLoop();
+  i=0;
+  console.log(i);
+});
+
 
 function myLoop() {
 

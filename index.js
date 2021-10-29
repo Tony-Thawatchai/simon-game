@@ -32,6 +32,18 @@ $(document).keypress(function() {
 
 );
 
+$("#level-title").click(function(){
+  $("h2").text("");
+  $("h3").text("");
+  $("#level-title").css("font-size", "3rem");
+  $("h1").text("Level " + level.length);
+  $("#watch").text("Watch");
+  setTimeout(function() {
+    playChallenge();
+    $("#watch").text("GO!");
+  }, 500);
+});
+
 function playChallenge() {
 
 
@@ -175,7 +187,7 @@ function checkResult(currentLevel) {
     }
   } else {
     // highScore.push(1);
-    $("h1").html("GAME OVER <br> press any key to continue");
+    $("h1").html("GAME OVER <br> Click here to continue");
     $("#level-title").css("font-size", "1.5rem");
     $("#watch").text(" ");
     showyourScore(yourScore);
