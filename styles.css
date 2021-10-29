@@ -56,7 +56,7 @@ h3 {
 .ready-to-play {
   background-color: green;
   opacity: 0.8;
-  width: 35%;
+  width: 45%;
   /* height: 5rem;
   font-size: 5rem; */
 }
@@ -89,7 +89,10 @@ h3 {
 
 @media  (max-width:1028px){
   .btn{
-    height: 100px;
+    height: 200px;
     margin: 5px;
+  }
+  .container{
+    margin: 20% auto;
   }
 }
